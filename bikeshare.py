@@ -193,14 +193,14 @@ def display_data(df):
                 num_of_rows = int(rows)
                 print(df.iloc[start:num_of_rows+start])
                 start += num_of_rows
-                view_data = input("Do you wish to continue?: yes or no: ").lower()
+                view_data = input("Do you wish to continue? yes or no: ").lower()
                 if view_data == "yes":
                     view_data_choice  = True
                 else:
                    view_data_choice = False
                    break
             except ValueError:
-              print("Invalid input, please try again")
+              print("Invalid input! Please try again :(")
                 
       
 

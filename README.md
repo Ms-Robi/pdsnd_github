@@ -31,3 +31,15 @@ Stack Overflow - Finding start-time and end-time of events in a day - Pandas tim
 Earthly - How To Read A CSV File In Python (https://earthly.dev/blog/csv-python/)
 
 
+### Steps on How to Use the Code
+
+1. Download the CSV files for each city's bike share data: chicago.csv, new_york_city.csv, and washington.csv.
+2. Place the CSV files in the same directory as the Python script.
+3. Open your terminal or command prompt and navigate to the directory containing the script and CSV files.
+4. Run the script using the following command, python bikeshare_analysis.py
+5. Follow the instructions in the terminal to select the city, month, and day of the week for analysis.
+6. The script will display various statistics and insights about the bike share data based on your input.
+7. After viewing the statistics, the script will prompt you to see individual trip data. Type "yes" or "no" to view or skip this option.
+8. If you choose to see individual trip data, you can specify the number of rows to display at a time.
+9. The script will continue asking if you want to view more trip data until you type "no."
+10. After exploring the data, you can choose to restart the analysis or exit the program.
