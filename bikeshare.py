@@ -154,9 +154,13 @@ def user_stats(df):
       print(gender)
 
     # TO DO: Display earliest, most recent, and most common year of birth
+      print("Birth date Data")
       earliest_birth_year = df['Birth Year'].min()
       most_recent_birthyear = df['Birth Year'].max()
       most_common_birthyear = df['Birth Year'].mode()[0]
+      print("Earliest birth year {}".format(earliest_birth_year))
+      print("Most recent birth year {}".format(most_recent_birthyear))
+      print("Most common birth year {}".format(most_common_birthyear))
     else:
       print("Gender and User Type information not found")
    
