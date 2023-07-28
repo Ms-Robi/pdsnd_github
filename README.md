@@ -16,6 +16,15 @@ Python 3
 pandas
 numpy
 
+### Important Notes
+If you enter an invalid city, month, or day of the week, the script will prompt you to re-enter the information.
+
+The script assumes that the CSV files have columns for "Start Time," "End Time," "Start Station," "End Station," "User Type," "Gender," and "Birth Year." If any of these columns are missing, the script will inform you that the information is not available.
+
+The script uses the pandas library to load and manipulate the data, and the numpy library for numerical computations.
+
+Make sure to check the terminal for any error messages or prompts while running the script.
+
 ### Credits
 Stack Overflow - Finding start-time and end-time of events in a day - Pandas timeseries - such that end time does not fall into next day (https://stackoverflow.com/questions/67333038/finding-start-time-and-end-time-of-events-in-a-day-pandas-timeseries-such-th)
 
